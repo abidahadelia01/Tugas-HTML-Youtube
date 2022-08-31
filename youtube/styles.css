@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #5a5a5a;
+}
+img{
+    cursor: pointer;
+}
+.flex-div{
+   display: flex;
+   align-items: center;
+}
+nav{
+    padding: 10px 2%;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background: #fff;
+    position: static;
+    top: 0;
+    z-index: 10;
+}
+.nav-right .video-icon{
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 0;
+}
+.nav-left .logo{
+    width: 130px;
+}
+.nav-right .profil-icon{
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 0;
+}
+.nav-left .menu-icon{
+    width: 35px;
+    margin-right: 25px;
+}
+.nav-right .notif-icon{
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 0;
+}
+.nav-middle .mic-icon{
+    width: 35px;
+}
+.nav-middle .search-box{
+    border: 1px solid #ccc;
+    margin-right: 15px;
+       padding: 8px 12px;
+       border-radius: 25px;
+    }
+    .nav-middle .search-box input{
+        width: 400px;
+        border: 0;
+        outline: 0;
+        background: transparent;
+    }
+    .nav-middle .mic-icon{
+        width: 35px;
+        border-radius: 50px;
+    }
+    .nav-middle .search-box img{
+        width: 35px;
+    }
+    .play-video .tags a{
+        color: #0000ff;
+        font-size: 13px;
+    }
+    .play-video h3{
+        font-weight: 600;
+        font-size: 22px;
+    }
+    .play-video .play-video-info{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 10px;
+        font-size: 14px;
+        color: #5a5a5a;
+    }
+    .play-video .play-video-info a img{
+        width: 30px;
+        margin-right: 8px;
+    }
+    .play-video .play-video-info a{
+        display: inline-flex;
+        align-items: center;
+        margin-left: 15px;
+    }
+    .play-video hr{
+        border: 0;
+        height: 1px;
+        background: #ccc;
+        margin: 10px 0;
+    }
+    
